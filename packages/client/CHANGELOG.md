@@ -1,5 +1,11 @@
 # @cloud-carbon-footprint/client
 
+## 4.1.1
+
+### Patch Changes
+
+- 65386330: bumps ramda dependency
+
 ## 4.1.0
 
 ### Minor Changes
