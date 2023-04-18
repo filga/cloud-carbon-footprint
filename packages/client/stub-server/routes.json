@@ -1,6 +1,6 @@
 {
   "api/recommendations:": "/recommendations",
   "/api/regions/emissions-factors": "/emissions",
-  "/api/*": "/$1",
-  "/api": "/footprint"
+  "/api": "/footprint",
+  "/api/*": "/$1"
 }
