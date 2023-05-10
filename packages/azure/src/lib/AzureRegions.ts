@@ -26,10 +26,13 @@ export const AZURE_REGIONS = {
     name: 'australiacentral2',
     options: ['australiacentral2'],
   },
-  AP_AUSTRALIA_EAST: { name: 'australiaeast', options: ['australiaeast'] },
+  AP_AUSTRALIA_EAST: {
+    name: 'australiaeast',
+    options: ['australiaeast', 'AustraliaEast'],
+  },
   AP_AUSTRALIA_SOUTH_EAST: {
     name: 'australiasoutheast',
-    options: ['australiasoutheast'],
+    options: ['australiasoutheast', 'AustraliaSouthEast'],
   },
   AP_EAST: { name: 'apeast', options: ['apeast'] },
   AP_SOUTH_EAST: { name: 'apsoutheast', options: ['apsoutheast'] },
