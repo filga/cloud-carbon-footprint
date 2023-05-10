@@ -81,7 +81,6 @@ export default async function cli(argv: string[] = process.argv) {
       process.cwd(),
       `results-${moment().utc().format('YYYY-MM-DD-HH:mm:ss')}.csv`,
     )
-    console.log(filePath)
     exportToCSV(table, filePath)
     return `File saved to: ${filePath}`
   } else {
